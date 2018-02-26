@@ -1,0 +1,25 @@
+{
+  "name": "foobarqix-kata",
+  "version": "1.0.0",
+  "description": "kata with mocha and js tdd",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha *.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/majdBay/FooBarQix-Kata.git"
+  },
+  "author": "Majd Bayassi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/majdBay/FooBarQix-Kata/issues"
+  },
+  "homepage": "https://github.com/majdBay/FooBarQix-Kata#readme",
+  "dependencies": {
+    "mocha": "^5.0.1"
+  },
+  "devDependencies": {
+    "should": "^13.2.1"
+  }
+}
