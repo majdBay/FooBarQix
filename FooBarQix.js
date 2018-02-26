@@ -20,6 +20,7 @@ var FooBarQix = function (number, ourCase) {
             this.output += ourCase;
         }
     });
+    return this.output;
 };
 
-module.exports = { clearOutput, output, FooBarQix };
+module.exports = { cases, clearOutput, output, FooBarQix };
